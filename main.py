@@ -1,5 +1,5 @@
 from tkinter import *
-from Shapes.Shape import *
+from shapes.Shape import *
 
 shape = Shape()
 print(shape._center)
