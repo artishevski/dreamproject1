@@ -1,6 +1,6 @@
-from shapes.oval_shape.OvalShape import OvalShape
-from shapes.Point import *
-from shapes.Shape import *
+from shapes.oval_shape.OvalShape import *
+from shapes.Shape import Shape
+from shapes.Point import Point
 
 class Circle(OvalShape):
     """
@@ -20,11 +20,13 @@ class Circle(OvalShape):
 
     @property
     def top_left_coord(self):
-        self.top_left_coord = Point(self.center.x-self.radius, self.center.y + self.radius)
-        return self.top_left_coord
+        """
+        :return: Point; top_left_coord of the circle
+        """
+        self._top_left_coord = Point(self._center._x-self.radius, self._center._y + self.radius)
+        return self._top_left_coord
 
     @property
-    def bottom_left_coord(self):
-        self.bottom_right_coord = Point(self.center.x + self.radius, self.center.y - self.radius)
-        return self.bottom_right_coord
-
+    def bottom_right_coord(self):
+        self._bottom_right_coord = Point(self._center._x + self.radius, self._center._y - self.radius)
+        return self._bottom_right_coord

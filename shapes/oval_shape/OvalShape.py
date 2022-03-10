@@ -1,5 +1,4 @@
-from shapes import Shape
-
+from shapes.Shape import Shape
 
 class OvalShape(Shape):
     '''
@@ -14,6 +13,6 @@ class OvalShape(Shape):
         :param in_color: str; color of the inner side
         """
         super().__init__(center, out_color)
-        self.top_left_coord = top_left_coord
-        self.bottom_right_coord = bottom_right_coord
-        self.in_color = in_color
+        self._top_left_coord = top_left_coord
+        self._bottom_right_coord = bottom_right_coord
+        self._in_color = in_color
