@@ -1,4 +1,5 @@
-from shapes.shape import Shape
+from shapes import Shape
+from shapes import Point
 
 
 class PolygonShape(Shape):

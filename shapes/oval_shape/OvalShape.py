@@ -1,4 +1,4 @@
-from shapes.shape import Shape
+from shapes import Shape
 
 
 class OvalShape(Shape):
