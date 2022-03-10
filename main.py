@@ -1,5 +1,6 @@
 from tkinter import *
 from Shapes.Shape import *
+from GUI.MainScreen import *
 
 
 
@@ -12,3 +13,4 @@ from Shapes.Shape import *
 
 shape = Shape()
 print(shape._center)
+MainScreen()
