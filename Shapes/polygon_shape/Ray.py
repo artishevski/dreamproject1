@@ -17,11 +17,11 @@ class Ray(PolygonShape):
     @property
     def border_coords(self):
         """
-        :return: array of Points; ray begin and end points
+        :return: array of Points; ray begin and end points (infinity)
         """
         # math cos and sin operate in radians
         ray_endpoint_coord = Point(math.max * math.cos(self._angle*math.pi/180),
-                                   math.max* math.sin(self._angle*math.pi/180))
+                                   math.max * math.sin(self._angle*math.pi/180))
         self._border_coords = [self._center, ray_endpoint_coord]
         return self._border_coords
 
