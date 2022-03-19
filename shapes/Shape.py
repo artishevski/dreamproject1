@@ -6,6 +6,6 @@ class Shape:
         self._center = center
         self.__out_color = out_color
 
-    def move_center(self, new_coords: Point):
+    def move_center(self, new_coords):
         self._center = new_coords
 
