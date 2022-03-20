@@ -4,7 +4,7 @@ from shapes.polygon_shape.PolygonShape import PolygonShape
 from shapes.oval_shape.OvalShape import OvalShape
 #from shapes.polygon_shape.Line import Line
 #from shapes.polygon_shape.Halfline import Halfline
-#from shapes.polygon_shape.Interval import Interval
+#from shapes.polygon_shape.Line import Line
 from shapes.polygon_shape.Triangle import Triangle
 from shapes.polygon_shape.Rectangle import Rectangle
 from shapes.polygon_shape.Diamond import Diamond
