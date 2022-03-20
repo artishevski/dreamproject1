@@ -7,7 +7,7 @@ class Ellipse(OvalShape):
     Class provides functionality for creating circles with the fied size
     """
 
-    def __init__(self, center, width=5, height=10, out_color='black', in_color='white'):
+    def __init__(self, center = Point(0, 0), width=60, height=30, out_color='red', in_color='blue'):
         """
         :param center: Point; coordinates of the figure centre
         :param radius: int; radius of the circle
@@ -18,16 +18,7 @@ class Ellipse(OvalShape):
         self._width = width
         self._heigth = height
 
-
-    @property
-    def top_left_coord(self):
-        """
-        :return: Point; top_left_coord of the circle
-        """
-        self._top_left_coord = Point(self._center._x-self._width, self._center._y + self._heigth)
-        return self._top_left_coord
-
-    @property
-    def bottom_right_coord(self):
-        self._bottom_right_coord = Point(self._center._x + self._width, self._center._y - self._heigth)
-        return self._bottom_right_coord
+    def move_center(self, new_coords: Point):
+        super(Ellipse, self).move_center(new_coords)
+        self._top_left_coord = Point(self._center._x-self._width, self._center._y - self._heigth)
+        self._bottom_right_coord = Point(self._center._x + self._width, self._center._y + self._heigth)

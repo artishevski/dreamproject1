@@ -1,6 +1,6 @@
 from shapes import Shape
 from shapes import Point
-from shapes import PolygonShape
+from shapes.polygon_shape import PolygonShape
 import math
 
 
