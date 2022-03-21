@@ -12,7 +12,7 @@ class Pentagon(PolygonShape):
         super(Pentagon, self).move_center(new_coords)
         point_A = Point(self._center._x - 30, self._center._y + 30)
         point_B = Point(self._center._x + 30, self._center._y + 30)
-        point_C = Point(self._center._x -40, self._center._y - 20)
+        point_C = Point(self._center._x + 40, self._center._y - 20)
         point_D = Point(self._center._x, self._center._y -50)
-        point_E = Point(self._center._ + 40, self._center._y - 20)
+        point_E = Point(self._center._x -40, self._center._y - 20)
         self._border_coords = [point_A, point_B, point_C, point_D, point_E]

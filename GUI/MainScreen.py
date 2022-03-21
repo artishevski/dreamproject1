@@ -2,14 +2,14 @@ from tkinter import *
 from shapes.Shape import Shape
 from shapes.polygon_shape.PolygonShape import PolygonShape
 from shapes.oval_shape.OvalShape import OvalShape
-#from shapes.polygon_shape.Line import Line
-#from shapes.polygon_shape.Halfline import Halfline
-#from shapes.polygon_shape.Line import Line
+from shapes.polygon_shape.Line import Line
+from shapes.polygon_shape.HalfLine import HalfLine
+from shapes.polygon_shape.Interval import Interval
 from shapes.polygon_shape.Triangle import Triangle
 from shapes.polygon_shape.Rectangle import Rectangle
 from shapes.polygon_shape.Diamond import Diamond
 from shapes.polygon_shape.Square import Square
-#from shapes.oval_shape.Pentagon import Circle
+from shapes.polygon_shape.Pentagon import Pentagon
 from shapes.oval_shape.Ellipse import Ellipse
 from shapes.oval_shape.Circle import Circle
 from shapes.Point import Point
@@ -76,16 +76,13 @@ class MainScreen:
                                        outline = self.shape._out_color, fill =self.shape._in_color, width = 8)
 
     def line(self):
-        #to-do
-        pass
+        self.shape = Line()
 
     def halfline(self):
-        #to-do
-        pass
+        self.shape = HalfLine()
 
     def interval(self):
-        #to-do
-        pass
+        self.shape = Interval()
 
     def triangle(self):
         self.shape = Triangle()
@@ -100,7 +97,7 @@ class MainScreen:
         self.shape = Square()
 
     def pentagon(self):
-        self.shape = Circle(radius=30)
+        self.shape = Pentagon()
 
     def ellipse(self):
         self.shape = Ellipse()
