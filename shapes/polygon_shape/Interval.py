@@ -1,7 +1,4 @@
-from shapes.Shape import Shape
 from shapes.Point import Point
-from shapes.polygon_shape.PolygonShape import PolygonShape
-from shapes.polygon_shape.Line import Line
 from shapes.polygon_shape.HalfLine import HalfLine
 import math
 

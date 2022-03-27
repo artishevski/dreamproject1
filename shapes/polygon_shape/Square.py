@@ -1,4 +1,3 @@
-from shapes import Shape
 from shapes.Point import Point
 from shapes.polygon_shape.PolygonShape import PolygonShape
 import math

@@ -1,7 +1,5 @@
-from shapes import Shape
 from shapes.Point import Point
 from shapes.polygon_shape.PolygonShape import PolygonShape
-import math
 
 class Rectangle(PolygonShape):
     def __init__(self, center=Point(0, 0), width=90, height=50, out_color='red', in_color='blue'):

@@ -1,6 +1,5 @@
 from shapes.Point import Point
 
-
 class Shape:
     def __init__(self, center=Point(0, 0), out_color='blue', in_color ='blue'):
         self._center = center

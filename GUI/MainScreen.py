@@ -55,13 +55,10 @@ class MainScreen:
         window.config(menu=self.menu)
 
         self.canvas = Canvas(width = 800, height = 500)
-        #self.canvas.create_polygon([-30, -40, 120, 80], outline='black', width=8)
         self.canvas.pack(fill=BOTH)
 
         self.canvas.bind('<Button-1>', self.popup)
 
-        #a = EllipseDrawing()
-        #a.draw_shape(self.canvas, [60, 60, 200, 150, "blue", "red"])
         window.mainloop()
 
     def popup(self, event):

@@ -1,5 +1,4 @@
 from shapes.oval_shape.OvalShape import *
-from shapes.Shape import Shape
 from shapes.Point import Point
 
 class Circle(OvalShape):
