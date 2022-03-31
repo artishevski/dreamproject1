@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Programs/dreamproject1/dreamproject1.py</OriginalElement>
+  <nodes>
+    <node x="933.0" y="1922.0">dreamproject1.Interval</node>
+    <node x="2600.0" y="1553.0">dreamproject1.Pentagon</node>
+    <node x="1581.7941176470588" y="932.0">dreamproject1.Point</node>
+    <node x="1768.0" y="1553.0">dreamproject1.Triangle</node>
+    <node x="956.0" y="1754.0">dreamproject1.HalfLine</node>
+    <node x="1185.7941176470588" y="899.0">dreamproject1.Shape</node>
+    <node x="0.0" y="1531.0">dreamproject1.Circle</node>
+    <node x="1327.0" y="1542.0">dreamproject1.Diamond</node>
+    <node x="956.0" y="1542.0">dreamproject1.Line</node>
+    <node x="171.5" y="1342.0">dreamproject1.OvalShape</node>
+    <node x="1925.5" y="1353.0">dreamproject1.PolygonShape</node>
+    <node x="446.0" y="1520.0">dreamproject1.Ellipse</node>
+    <node x="2156.0" y="1531.0">dreamproject1.Square</node>
+    <node x="2988.0" y="1531.0">dreamproject1.Rectangle</node>
+    <node x="1565.0833333333333" y="0.0">typing.Hashable</node>
+    <node x="1785.7941176470588" y="690.0">dreamproject1.MainScreen</node>
+    <node x="1527.0833333333333" y="104.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dreamproject1.Diamond" target="dreamproject1.PolygonShape">
+      <point x="0.0" y="-70.0" />
+      <point x="1537.5" y="1490.0" />
+      <point x="2042.75" y="1490.0" />
+      <point x="-117.25" y="48.0" />
+    </edge>
+    <edge source="dreamproject1.Interval" target="dreamproject1.HalfLine">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="dreamproject1.Square" target="dreamproject1.PolygonShape">
+      <point x="0.0" y="-81.0" />
+      <point x="2368.0" y="1500.0" />
+      <point x="2199.0833333333335" y="1500.0" />
+      <point x="39.083333333333485" y="48.0" />
+    </edge>
+    <edge source="dreamproject1.HalfLine" target="dreamproject1.Line">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="dreamproject1.OvalShape" target="dreamproject1.Shape">
+      <point x="0.0" y="-59.0" />
+      <point x="452.0" y="1317.0" />
+      <point x="1279.7941176470588" y="1317.0" />
+      <point x="-94.0" y="92.0" />
+    </edge>
+    <edge source="dreamproject1.Point" target="object">
+      <point x="0.0" y="-59.0" />
+      <point x="1673.7941176470588" y="665.0" />
+      <point x="1641.0833333333333" y="665.0" />
+      <point x="0.0" y="268.0" />
+    </edge>
+    <edge source="dreamproject1.Ellipse" target="dreamproject1.OvalShape">
+      <point x="0.0" y="-92.0" />
+      <point x="691.0" y="1500.0" />
+      <point x="592.25" y="1500.0" />
+      <point x="140.25" y="59.0" />
+    </edge>
+    <edge source="dreamproject1.Line" target="dreamproject1.PolygonShape">
+      <point x="0.0" y="-70.0" />
+      <point x="1131.5" y="1480.0" />
+      <point x="1964.5833333333333" y="1480.0" />
+      <point x="-195.41666666666674" y="48.0" />
+    </edge>
+    <edge source="dreamproject1.MainScreen" target="object">
+      <point x="0.0" y="-301.0" />
+      <point x="1897.7941176470588" y="665.0" />
+      <point x="1717.0833333333333" y="665.0" />
+      <point x="76.0" y="268.0" />
+    </edge>
+    <edge source="dreamproject1.Shape" target="object">
+      <point x="0.0" y="-92.0" />
+      <point x="1373.7941176470588" y="665.0" />
+      <point x="1565.0833333333333" y="665.0" />
+      <point x="-76.0" y="268.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-268.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dreamproject1.Triangle" target="dreamproject1.PolygonShape">
+      <point x="0.0" y="-59.0" />
+      <point x="1952.0" y="1500.0" />
+      <point x="2120.9166666666665" y="1500.0" />
+      <point x="-39.083333333333485" y="48.0" />
+    </edge>
+    <edge source="dreamproject1.Circle" target="dreamproject1.OvalShape">
+      <point x="0.0" y="-81.0" />
+      <point x="213.0" y="1500.0" />
+      <point x="311.75" y="1500.0" />
+      <point x="-140.25" y="59.0" />
+    </edge>
+    <edge source="dreamproject1.Rectangle" target="dreamproject1.PolygonShape">
+      <point x="0.0" y="-81.0" />
+      <point x="3230.0" y="1480.0" />
+      <point x="2355.4166666666665" y="1480.0" />
+      <point x="195.41666666666652" y="48.0" />
+    </edge>
+    <edge source="dreamproject1.Pentagon" target="dreamproject1.PolygonShape">
+      <point x="0.0" y="-59.0" />
+      <point x="2784.0" y="1490.0" />
+      <point x="2277.25" y="1490.0" />
+      <point x="117.25" y="48.0" />
+    </edge>
+    <edge source="dreamproject1.PolygonShape" target="dreamproject1.Shape">
+      <point x="0.0" y="-48.0" />
+      <point x="2160.0" y="1317.0" />
+      <point x="1467.7941176470588" y="1317.0" />
+      <point x="94.0" y="92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.24975984630163303" x="1736.0" y="1031.0" />
+  <SelectedNodes>
+    <node>object</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
